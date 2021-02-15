@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 
+// comment for test commit
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -22,7 +24,7 @@ export class AppComponent {
       name: blueprintData.serverName,
       content: blueprintData.serverContent
     });
-  }  
+  }
 
   onChangeFirst(){
     this.serverElements[0].name = 'Changed!';
